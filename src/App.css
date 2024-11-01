@@ -1,0 +1,26 @@
+/* write your css here */
+.anime{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    transition: all 1s ease-in-out ;
+  animation: animet 5s infinite  ease-in-out ;
+}
+@keyframes animet {
+    0%, 100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/60% 30% 70% 40%;
+    }
+
+}
+.glassEffect{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+}

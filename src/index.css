@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.darkTheme{
+    --mycol-1:#09101a;
+    --mycol-2:#204986;
+    --mycol-3:#1CA7AE;
+    --mycol-4:#a2a2a2;
+    --mycol-5:#ffffff;
+  
+}
+
+.lightTheme{
+    --mycol-1:#ffffff;
+    --mycol-2:#575f89;
+    --mycol-3:#1CA7AE;
+    --mycol-4:#335456;
+    --mycol-5:#160e2e;
+    
+    }
+  .colr{--mycol-6:#02050a;}
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900 */
+
+.rubik-primary {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* --mycol-1:#1f1e21;
+    --mycol-2:#00fff7fe;
+    --mycol-3:#1CA7AE;
+    --mycol-4:#7d7d7d;
+    --mycol-5:#ffffff; */
+    
